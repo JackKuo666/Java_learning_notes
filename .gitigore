@@ -1,4 +1,1 @@
-JavaDemo/bin
-JavaDemo/.*
-Test/bin
-Test/.*
+!*.java

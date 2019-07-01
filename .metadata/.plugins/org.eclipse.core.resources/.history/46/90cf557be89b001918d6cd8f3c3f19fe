@@ -1,0 +1,26 @@
+package 案例分析;
+class Book1{
+	private int bid;
+	private String title;
+	private double price;
+	private static int count = 1;
+	public Book1(String title, double price){
+		this.bid = count ++;
+		this.title = title;
+		this.price = price;
+	}
+	// setter、getter略
+	public String getInfo(){
+		return "图书编号：" + this.bid
+				+ "\n名称：" + this.title
+				+ "\n价格：" + this.price
+				+ "\n数量：" + count;
+	}
+}
+
+public class Book {
+	public static void main(String args[]){
+		
+	}
+
+}

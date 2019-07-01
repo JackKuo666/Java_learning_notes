@@ -1,0 +1,17 @@
+// 代码块
+public class JavaDemo9 {
+	
+	public static void main(String args[]){
+	
+
+		{  // 普通代码块
+			int x = 10;
+			System.out.println("x :" + x);
+		}
+		
+		int x = 100;   // 全局变量
+		System.out.print("x :" + x);
+		
+	}
+
+}

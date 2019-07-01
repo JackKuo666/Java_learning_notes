@@ -1,0 +1,40 @@
+package 案例分析;
+
+public class ArrayDemo {
+	public static void main(String args[]){
+		// 1.使用数组的动态初始化实现数组的定义
+		int data [] = new int[3];
+		System.out.println("数组初始值：");
+		for (int x = 0; x < data.length; x ++){
+			System.out.println(data[x]);
+		}
+		data [0] = 11; // 为数组设置内容
+		data [1] = 23;
+		data [2] = 56;
+		System.out.println("更改数组值后：");
+		for (int x = 0; x < data.length; x ++){
+			System.out.println(data[x]);
+		}
+		
+		// 2.使用数组的静态初始化实现数组的定义
+		int data2 [] = new int [] {11,22,33};
+		System.out.println("静态初始化数组：");
+		for (int x = 0; x < data2.length; x ++){
+			System.out.println(data2[x]);
+		}
+
+		// 3.引用传递
+		int temp [] = data2; 
+		temp[0] = 99;
+		System.out.println("引用传递数组：");
+		for (int x = 0; x < data2.length; x ++){
+			System.out.println(data2[x]);
+		}
+		
+		// 4.foreach使用
+		for (int x:data2){
+			System.out.println(x);
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package 案例分析;
+class Book1{
+	private int bid;
+	private String title;
+	private double price;
+	private static int count = 1;
+	public Book1(String title, double price){
+		this.bid = count ++;
+		this.title = title;
+		thls.price = price;
+	}
+}
+
+public class Book {
+	public static void main(String args[]){
+		
+	}
+
+}

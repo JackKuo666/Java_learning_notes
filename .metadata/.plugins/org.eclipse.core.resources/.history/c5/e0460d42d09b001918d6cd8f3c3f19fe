@@ -1,0 +1,10 @@
+// 代码块
+public class JavaDemo9 {
+	int x = 100;
+	System.out.println("x :" + x);
+	{
+		int x = 10;
+		System.out.println("x :" + x);
+	}
+
+}

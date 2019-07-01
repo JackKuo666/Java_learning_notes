@@ -1,0 +1,23 @@
+package 案例分析;
+class User1{
+	private String uid;
+	private String password;
+	private static int count = 0;
+	public User1(){}
+	public User1(String uid){
+		this(uid, "password")
+	}
+	public User1(String uid, String password, int count){
+		this.uid = uid;
+		this.password = password;
+		this.count = count;
+			
+	}
+}
+
+public class User {
+	public static void main(String args[]){
+		
+	}
+
+}
